@@ -279,6 +279,7 @@ body{
     height: 449px;
     border-radius: 8px;
     background-image: url(asset/6background-picture.png);
+    background-repeat: no-repeat;
 }
 
  .subscribe-text{
