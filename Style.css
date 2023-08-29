@@ -1,0 +1,344 @@
+
+/*universal*/ 
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+
+/*Header Section*/ 
+.Header{
+   background-color: rgba(229, 84, 115, 0.10); 
+}
+
+.header-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 120px;
+    
+}
+
+.header-heading{
+    color: #272727;
+    font-weight: 800;
+    font-size: 63px;
+    max-width: 708px;
+    
+    
+    
+}
+.header-des{
+    color: #27272799;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 634px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.Header-btn, .Subscribe-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 0px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.header-banner-image{
+    max-width: 635px;
+    max-height: 800px;
+    padding-top: 50px;
+    
+}
+
+
+/*Main Section (Featured part)*/ 
+
+
+.Featured-text{
+    
+    margin-top: 174px;
+    
+}
+
+.Featured-heading{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    
+    
+}
+
+.featured-des, .review-section-des{
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-bottom: 30px;
+    
+    
+    
+    
+    
+}
+
+.featured-images-div{
+    display: flex;
+    justify-content: center;
+    margin: 0px 240px;
+    
+    
+
+}
+
+.featured-images1{
+   padding: 110px 77px 0px 77px ;
+   border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+}
+.featured-images2{
+    padding:  117px 47px 51px 47px ;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    
+    
+    
+}
+.featured-images3{
+    padding:  67px 75px 0px 75px  ;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    
+}
+
+
+
+.featured-image-section2{
+    
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+
+
+.featured-image-des{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 32px ;
+}
+/*Main Section (Icon part)*/
+
+.Main-icon-div{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 128px 240px;
+    max-width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);;
+    border-radius: 8px;
+}
+
+.Main-icon-des{
+    text-align: center;
+}
+
+/*Main Section (Customer Reviews)*/
+
+.Customer-Reviews{
+    width: auto;
+    height: 600px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.Clint-reviews{
+    display: flex;
+    padding: 10px 50px;
+    text-align: center;
+}
+.review{
+ height: auto;
+ width: 30%;
+ background-color:rgba(229, 84, 115, 0.05);
+ border-radius: 20px;
+ margin: 20px;
+ box-shadow: 10px 10px 10px  pink;
+}
+.review-heading{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    font-style: italic;
+}
+.review-des{
+    font-style: italic;
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+
+
+
+/*Main Section (Offer)*/ 
+.offer-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.offer-section-text{
+    text-align: center;
+    align-items: center;
+    margin-left: 250px;
+    
+}
+
+.offer-section-heading, .instagram-heading, .subscribe-heading, .review-section-heading{
+    color: #272727;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.offer-section-span{
+    color: #E55473;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.offer-section-des, .instagram-section-des, .subscribe-des{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px;
+    justify-content: center;
+}
+
+.offer-section-img{
+    width: 320px;
+    height: 420px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 300px;
+}
+
+/*instagram-section*/ 
+.instagram-section-pics{
+    display: flex;
+    margin: 48px 240px 0px 240px ;
+    justify-content: center;
+}
+
+.is-pic{
+    width: 340px;
+    height: 400px;
+    padding-right: 24px;
+    
+}
+
+
+
+.Subscribe-Section{
+    margin: 100px 100px;
+    width: auto;
+    height: 449px;
+    border-radius: 8px;
+    background-image: url(asset/6background-picture.png);
+}
+
+ .subscribe-text{
+    padding-top: 50px;
+ }
+
+ .Subscribe-email{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 16px;
+}
+
+ 
+.subscribe-input{
+    padding: 0 250px;
+}
+
+
+
+        /*Footer Section*/ 
+
+.footer{
+    width: auto;
+    height: 500px;
+    background: #111010;
+}
+
+.footer-text{
+    text-align: center;
+    padding-top: 120px;
+    
+    
+}
+.footer-heading{
+    color: #FFF;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.footer-span{
+    color: #E55473;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.footer-des{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 32px;
+}
+
+/*.........The END............*/
